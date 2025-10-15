@@ -14,17 +14,27 @@
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
+            /* ORGINAL
             psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
-                <NRF_PSEL(SPIM_MISO, 0, 17)>;
+                <NRF_PSEL(SPIM_MISO, 0, 17)>; */
+            //from devpev-zmk-charybdis-mini-wireless:
+            psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 10)>,
+                <NRF_PSEL(SPIM_MISO, 0, 10)>;
         };
     };
 
     spi0_sleep: spi0_sleep {
         group1 {
+             /* ORGINAL
             psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
-                <NRF_PSEL(SPIM_MISO, 0, 17)>;
+                <NRF_PSEL(SPIM_MISO, 0, 17)>; */
+             //from devpev-zmk-charybdis-mini-wireless:
+            psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 10)>,
+                <NRF_PSEL(SPIM_MISO, 0, 10)>;
             low-power-enable;
         };
     };
@@ -55,4 +65,5 @@
         y-input-code = <INPUT_REL_Y>;
     };
 };
+
 
