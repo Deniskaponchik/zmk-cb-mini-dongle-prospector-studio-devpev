@@ -85,19 +85,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
-  - {t: BT, h: '3'}
   - ''
   - ''
   - ''
   - ''
   - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT, h: '2'}
+  - ''
   - ''
   - ''
   - LEFT
@@ -109,7 +109,7 @@ layers:
   - RSHFT
   - RIGHT WIN
   - {t: ▽, type: trans}
-  - {t: BT, h: '1'}
+  - ''
   - ''
   - ''
   - HOME
@@ -127,46 +127,46 @@ layers:
   - ''
   - ''
   Numbers:
-  - {t: ▽, type: trans}
-  - ''
-  - '7'
-  - '8'
-  - '9'
   - ''
   - ''
-  - PG UP
-  - UP
-  - PG DN
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHFT}
-  - {t: '6', h: LCTRL}
   - ''
   - ''
-  - {t: LEFT, h: RCTRL}
-  - {t: DOWN, h: RSHFT}
-  - {t: RIGHT, h: RALT}
-  - RGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
-  - '1'
-  - '2'
-  - '3'
-  - Ctl+ -
-  - Ctl+ =
-  - HOME
-  - {t: ▽, type: trans}
-  - END
+  - BT CLR
+  - '&soft_off'
   - ''
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - SPACE
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ZMK Studio
+  - ''
+  - BOOT LDR
+  - {t: Base, h: toggle}
   - ''
   Function:
   - ''
@@ -199,7 +199,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&pwd_work'
+  - ''
   - ''
   - ''
   - ''
@@ -222,7 +222,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -234,7 +233,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -246,14 +244,16 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - ''
   - {type: held}
   - ''
   - ''
-  - Numbers
+  - {t: Numbers, h: toggle}
   Reset:
-  - BOOT LDR
+  - ''
   - ''
   - F8
   - F11
@@ -277,7 +277,7 @@ layers:
   - {t: '6', h: RSHFT}
   - '-'
   - ''
-  - ZMK Studio
+  - ''
   - F1
   - F2
   - F4
