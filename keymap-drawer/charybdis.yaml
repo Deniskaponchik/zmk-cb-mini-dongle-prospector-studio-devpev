@@ -2,7 +2,7 @@ layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
   - {t: ▽, type: trans}
-  - Q
+  - {t: Q, h: Function}
   - W
   - E
   - R
@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: LGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Z, h: Function}
+  - {t: Z, h: Mouse}
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
   - {t: V, h: Ctl+ V}
@@ -37,11 +37,11 @@ layers:
   - .
   - {t: /, h: Symbol}
   - {t: ▽, type: trans}
-  - {t: TAB, h: Mouse}
-  - SPACE
-  - L CLK
   - BACK SPACE
-  - {t: ENTER, h: Reset}
+  - {t: SPACE, h: Game}
+  - L CLK
+  - ENTER
+  - {t: TAB, h: Reset}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - Number
   - Symbol
@@ -79,9 +79,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&mkp MB1', type: held}
-  - '&mkp MB2'
   - '&mkp MB3'
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
@@ -152,7 +152,7 @@ layers:
   - RGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - '1'
   - {t: '2', type: held}
   - '3'
@@ -163,14 +163,14 @@ layers:
   - END
   - ''
   - {t: ▽, type: trans}
-  - {t: ., type: held}
+  - .
   - '0'
   - SPACE
   - {t: ▽, type: trans}
   - ''
   Function:
   - {t: ▽, type: trans}
-  - Ctl+Alt+ DEL
+  - {t: Ctl+Alt+ DEL, type: held}
   - F7
   - F8
   - F9
@@ -194,7 +194,7 @@ layers:
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - F1
   - F2
   - F3
@@ -248,7 +248,7 @@ layers:
   - '5'
   - {t: ▽, type: trans}
   - LALT
-  - SPACE
+  - {t: SPACE, type: held}
   - M
   - T
   - B
