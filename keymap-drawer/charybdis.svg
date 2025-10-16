@@ -146,8 +146,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Q</text>
-<a href="#Function">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">Function</tspan></text>
+<a href="#Macros">
+<text x="0" y="24" class="key hold layer-activator">Macros</text>
 </a></g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -322,8 +322,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">/</text>
-<a href="#Symbol">
-<text x="0" y="24" class="key hold layer-activator">Symbol</text>
+<a href="#Move">
+<text x="0" y="24" class="key hold layer-activator">Move</text>
 </a></g>
 <g transform="translate(812, 172)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -340,8 +340,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">SPACE</text>
-<a href="#Game">
-<text x="0" y="24" class="key hold layer-activator">Game</text>
+<a href="#Sym">
+<text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
 <g transform="translate(342, 235) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -359,8 +359,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">TAB</text>
-<a href="#Reset">
-<text x="0" y="24" class="key hold layer-activator">Reset</text>
+<a href="#Raize">
+<text x="0" y="24" class="key hold layer-activator">Raize</text>
 </a></g>
 </g>
 </g>
@@ -467,23 +467,14 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB1</tspan>
-</text>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB2</tspan>
-</text>
 </g>
 <g transform="translate(700, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
-</text>
 </g>
 <g transform="translate(756, 116)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -589,8 +580,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 659)" class="layer-Symbol">
-<text x="0" y="28" class="label" id="Symbol">Symbol:</text>
+<g transform="translate(30, 659)" class="layer-Move">
+<text x="0" y="28" class="label" id="Move">Move:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 60)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1002,8 +993,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1317)" class="layer-Function">
-<text x="0" y="28" class="label" id="Function">Function:</text>
+<g transform="translate(30, 1317)" class="layer-Macros">
+<text x="0" y="28" class="label" id="Macros">Macros:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 60)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1171,8 +1162,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1646)" class="layer-Game">
-<text x="0" y="28" class="label" id="Game">Game:</text>
+<g transform="translate(30, 1646)" class="layer-Sym">
+<text x="0" y="28" class="label" id="Sym">Sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 60)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1343,8 +1334,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1976)" class="layer-Reset">
-<text x="0" y="28" class="label" id="Reset">Reset:</text>
+<g transform="translate(30, 1976)" class="layer-Raize">
+<text x="0" y="28" class="label" id="Raize">Raize:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 60)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1562,8 +1553,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<a href="#Reset">
-<text x="0" y="-4" class="key  combo-separate tap layer-activator">Reset</text>
+<a href="#Raize">
+<text x="0" y="-4" class="key  combo-separate tap layer-activator">Raize</text>
 </a><text x="0" y="24" class="key  combo-separate hold">toggle</text>
 </g>
 <g transform="translate(14, 88)" class="key keypos-1">
@@ -1737,8 +1728,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<a href="#Reset">
-<text x="0" y="-4" class="key  combo-separate tap layer-activator">Reset</text>
+<a href="#Raize">
+<text x="0" y="-4" class="key  combo-separate tap layer-activator">Raize</text>
 </a><text x="0" y="24" class="key  combo-separate hold">toggle</text>
 </g>
 <g transform="translate(14, 88)" class="key keypos-1">
@@ -2262,8 +2253,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<a href="#Function">
-<text x="0" y="-4" class="key  combo-separate tap layer-activator"><tspan style="font-size: 88%">Function</tspan></text>
+<a href="#Macros">
+<text x="0" y="-4" class="key  combo-separate tap layer-activator">Macros</text>
 </a><text x="0" y="24" class="key  combo-separate hold">sticky</text>
 </g>
 <g transform="translate(14, 88)" class="key keypos-1">
@@ -2437,8 +2428,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<a href="#Game">
-<text x="0" y="-4" class="key  combo-separate tap layer-activator">Game</text>
+<a href="#Sym">
+<text x="0" y="-4" class="key  combo-separate tap layer-activator">Sym</text>
 </a><text x="0" y="24" class="key  combo-separate hold">toggle</text>
 </g>
 <g transform="translate(14, 88)" class="key keypos-1">

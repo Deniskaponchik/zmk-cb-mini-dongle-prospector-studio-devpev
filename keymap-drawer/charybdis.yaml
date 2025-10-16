@@ -2,7 +2,7 @@ layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
   - ''
-  - {t: Q, h: Function}
+  - {t: Q, h: Macros}
   - W
   - E
   - R
@@ -35,13 +35,13 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Symbol}
+  - {t: /, h: Move}
   - ''
   - BACK SPACE
-  - {t: SPACE, h: Game}
+  - {t: SPACE, h: Sym}
   - L CLK
   - ENTER
-  - {t: TAB, h: Reset}
+  - {t: TAB, h: Raize}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,9 +62,9 @@ layers:
   - M CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - PRINT SCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Symbol:
+  Move:
   - ''
   - ''
   - ''
@@ -168,7 +168,7 @@ layers:
   - BOOT LDR
   - {t: Base, h: toggle}
   - ''
-  Function:
+  Macros:
   - ''
   - {type: held}
   - ''
@@ -210,7 +210,7 @@ layers:
   - ''
   - ''
   - ''
-  Game:
+  Sym:
   - ''
   - ''
   - ''
@@ -252,7 +252,7 @@ layers:
   - ''
   - ''
   - {t: Numbers, h: toggle}
-  Reset:
+  Raize:
   - ''
   - ''
   - F8
@@ -296,17 +296,17 @@ layers:
   - {type: held}
 combos:
 - p: [20, 24]
-  k: {t: Reset, h: toggle}
+  k: {t: Raize, h: toggle}
 - p: [25, 29]
-  k: {t: Reset, h: toggle}
+  k: {t: Raize, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
   k: {t: Base, h: toggle}
 - p: [27, 28]
-  k: {t: Function, h: sticky}
+  k: {t: Macros, h: sticky}
 - p: [5, 9]
-  k: {t: Game, h: toggle}
+  k: {t: Sym, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
