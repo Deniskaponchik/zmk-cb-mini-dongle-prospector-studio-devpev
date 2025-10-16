@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
-  - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
   - ''
   - ''
   - ''
@@ -97,7 +97,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '2'}
   - ''
   - ''
   - LEFT
@@ -109,7 +109,7 @@ layers:
   - RSHFT
   - RIGHT WIN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
   - ''
   - ''
   - HOME
@@ -121,9 +121,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - ''
-  - ''
-  - ''
+  - BT CLR
   - ''
   - ''
   Number:
@@ -253,46 +253,46 @@ layers:
   - T
   - B
   Reset:
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
   - BOOT LDR
-  - BOOT LDR
+  - ''
+  - F8
+  - F11
+  - DEV TOOLS
+  - '`'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - LSHFT
+  - LCTRL
+  - LEFT ALT
+  - '['
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ZMK Studio
+  - F1
+  - F2
+  - F4
+  - F5
+  - ;
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - BACK SPACE
+  - PAUSE BREAK
+  - ENTER
+  - ''
   - {type: held}
 combos:
 - p: [20, 24]
