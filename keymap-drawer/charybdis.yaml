@@ -166,7 +166,7 @@ layers:
   - ZMK Studio
   - ''
   - BOOT LDR
-  - {t: Base, h: toggle}
+  - Base
   - ''
   Macros:
   - ''
@@ -251,7 +251,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {t: Numbers, h: toggle}
+  - Numbers
   Raize:
   - ''
   - ''
