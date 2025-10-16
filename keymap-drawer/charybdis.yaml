@@ -88,42 +88,42 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - '{'
-  - '}'
-  - '|'
-  - '`'
-  - '~'
-  - <
-  - '>'
-  - \
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
-  - (
-  - )
-  - ':'
-  - +
-  - '-'
-  - /
-  - '*'
-  - ''''
+  - LEFT
+  - RIGHT
+  - ''
+  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RCTRL
+  - RSHFT
+  - RIGHT WIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
-  - '['
-  - ']'
-  - '?'
-  - '&'
-  - '='
-  - _
-  - .
-  - {t: '"', type: held}
+  - HOME
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - DOWN
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   Number:
