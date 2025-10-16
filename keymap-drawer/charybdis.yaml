@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - {t: ESCAPE, h: Function}
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
@@ -13,35 +13,35 @@ layers:
   - O
   - P
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
   - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - {t: S, h: LSHFT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LEFT ALT}
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
-  - {t: L, h: RALT}
+  - {t: J, h: RIGHT ALT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RSHFT}
   - {t: ;, h: LGUI}
   - {t: ▽, type: trans}
-  - LSHFT
-  - Z
+  - {t: ▽, type: trans}
+  - {t: Z, h: Function}
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
-  - V
-  - {t: B, h: Ctl+ V}
+  - {t: V, h: Ctl+ V}
+  - B
   - N
   - M
   - ','
   - .
-  - /
+  - {t: /, h: Symbol}
   - {t: ▽, type: trans}
-  - LCTRL
-  - Symbol
-  - {t: RET, h: LGUI}
-  - {t: SPACE, h: Number}
-  - BSPC
+  - {t: TAB, h: Mouse}
+  - SPACE
+  - L CLK
+  - BACK SPACE
+  - {t: ENTER, h: Reset}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB2'
   - '&mkp MB3'
   - {t: ▽, type: trans}
@@ -119,10 +119,10 @@ layers:
   - '='
   - _
   - .
-  - '"'
+  - {t: '"', type: held}
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - '1'
-  - '2'
+  - {t: '2', type: held}
   - '3'
   - Ctl+ -
   - Ctl+ =
@@ -163,13 +163,13 @@ layers:
   - END
   - ''
   - {t: ▽, type: trans}
-  - .
+  - {t: ., type: held}
   - '0'
   - SPACE
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   Function:
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+Alt+ DEL
   - F7
   - F8
@@ -194,7 +194,7 @@ layers:
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - F1
   - F2
   - F3
@@ -293,7 +293,7 @@ layers:
   - ''
   - BOOT LDR
   - BOOT LDR
-  - ''
+  - {type: held}
 combos:
 - p: [20, 24]
   k: {t: Reset, h: toggle}

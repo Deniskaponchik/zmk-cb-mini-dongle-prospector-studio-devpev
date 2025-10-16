@@ -1,7 +1,7 @@
 if SHIELD_CHARYBDIS_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "Charybdis Mini (3x6)"
+	default "Charybdis Mini"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
@@ -14,4 +14,5 @@ config ZMK_SPLIT
 	default y
 	
 endif
+
 
