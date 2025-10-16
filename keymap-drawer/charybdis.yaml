@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - {t: ▽, type: trans}
+  - ''
   - {t: Q, h: Function}
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: A, h: LGUI}
   - {t: S, h: LSHFT}
   - {t: D, h: LCTRL}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RSHFT}
   - {t: ;, h: LGUI}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: Z, h: Mouse}
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - {t: /, h: Symbol}
-  - {t: ▽, type: trans}
+  - ''
   - BACK SPACE
   - {t: SPACE, h: Game}
   - L CLK
@@ -126,7 +126,7 @@ layers:
   - BT CLR
   - ''
   - ''
-  Number:
+  Numbers:
   - {t: ▽, type: trans}
   - ''
   - '7'
@@ -188,9 +188,9 @@ layers:
   - ''
   - ''
   - ''
-  - LCTRL
-  - LSHFT
-  - LALT
+  - ''
+  - ''
+  - ''
   - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&pwd_work'
   - ''
   - ''
   - ''
@@ -211,47 +211,47 @@ layers:
   - ''
   - ''
   Game:
-  - ESCAPE
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
   - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - {t: ▽, type: trans}
-  - LALT
+  - ''
   - {type: held}
-  - M
-  - T
-  - B
+  - ''
+  - ''
+  - Numbers
   Reset:
   - BOOT LDR
   - ''
@@ -259,36 +259,36 @@ layers:
   - F11
   - DEV TOOLS
   - '`'
+  - \
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - ''
   - ''
   - LSHFT
   - LCTRL
   - LEFT ALT
   - '['
+  - ']'
+  - {t: '4', h: LEFT ALT}
+  - {t: '5', h: RCTRL}
+  - {t: '6', h: RSHFT}
+  - '-'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - ZMK Studio
   - F1
   - F2
   - F4
   - F5
   - ;
+  - KP DOT
+  - '1'
+  - '2'
+  - '3'
+  - '='
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - BACK SPACE
   - PAUSE BREAK
   - ENTER
