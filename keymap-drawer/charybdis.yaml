@@ -56,10 +56,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - M CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -70,8 +70,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Number
-  - Symbol
+  - M CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,9 +78,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - '&mkp MB2'
-  - '&mkp MB1'
+  - L CLK
+  - PRINT SCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
@@ -152,9 +152,9 @@ layers:
   - RGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - '1'
-  - {t: '2', type: held}
+  - '2'
   - '3'
   - Ctl+ -
   - Ctl+ =
