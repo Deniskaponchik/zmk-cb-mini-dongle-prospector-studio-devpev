@@ -194,20 +194,20 @@
         Macros {
             display-name = "Function";
             bindings = <
-&trans  &kp LC(LA(DEL))  &kp F7  &kp F8  &kp F9  &kp F10    &none  &none      &none      &none     &none     &trans
-&trans  &none            &kp F4  &kp F5  &kp F6  &kp F11    &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans
-&trans  &none            &kp F1  &kp F2  &kp F3  &kp F12    &none  &none      &none      &none     &none     &trans
-                                 &none   &none   &none      &none  &none
+&trans  &trans  &none  &none  &none  &none    &none  &none      &none      &none     &none     &trans
+&trans  &none   &none  &none  &none  &none    &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans
+&trans  &none   &none  &none  &none  &none    &none  &none      &none      &none     &none     &trans
+                       &none  &none  &none    &none  &none
             >;
         };
 
         Symbols {
             display-name = "Game";
             bindings = <
-&kp ESCAPE  &kp ESCAPE  &kp Q  &kp W     &kp E      &kp R    &none   &none     &none     &none     &none   &trans
-&trans      &kp LCTRL   &kp A  &kp S     &kp D      &kp F    &none   &mkp MB1  &mkp MB2  &mkp MB3  &none   &trans
-&trans      &kp LSHIFT  &kp Z  &kp X     &kp C      &kp V    &kp N1  &kp N2    &kp N3    &kp N4    &kp N5  &trans
-                               &kp LALT  &kp SPACE  &kp M    &kp T   &kp B
+&kp ESCAPE  &kp ESCAPE  &kp Q  &kp W     &kp E   &kp R    &none   &none     &none     &none     &none   &trans
+&trans      &kp LCTRL   &kp A  &kp S     &kp D   &kp F    &none   &mkp MB1  &mkp MB2  &mkp MB3  &none   &trans
+&trans      &kp LSHIFT  &kp Z  &kp X     &kp C   &kp V    &kp N1  &kp N2    &kp N3    &kp N4    &kp N5  &trans
+                               &kp LALT  &trans  &kp M    &kp T   &kp B
             >;
         };
 
