@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RIGHT ALT}
   - {t: K, h: RCTRL}
   - {t: L, h: RSHFT}
-  - {t: ;, h: LGUI}
+  - {t: ;, h: RIGHT GUI}
   - ''
   - ''
   - {t: Z, h: Mouse}
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   Function:
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
   - ''
   - ''
@@ -180,8 +180,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -191,9 +189,11 @@ layers:
   - ''
   - ''
   - ''
-  - LGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -204,7 +204,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - ''
