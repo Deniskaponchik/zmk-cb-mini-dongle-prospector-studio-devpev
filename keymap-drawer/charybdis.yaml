@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - M CLK
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -70,7 +70,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - M CLK
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB2'
   - L CLK
-  - PRINT SCREEN
+  - M CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Move:
@@ -103,7 +103,7 @@ layers:
   - LEFT
   - RIGHT
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - RIGHT ALT
   - RCTRL
   - RSHFT
@@ -115,7 +115,7 @@ layers:
   - HOME
   - END
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - UP ARROW
   - DOWN
   - {t: ▽, type: trans}
@@ -211,6 +211,7 @@ layers:
   - ''
   - ''
   Sym:
+  - T
   - ''
   - ''
   - ''
@@ -221,6 +222,8 @@ layers:
   - ''
   - ''
   - ''
+  - T
+  - T
   - ''
   - ''
   - ''
@@ -231,6 +234,8 @@ layers:
   - ''
   - ''
   - ''
+  - T
+  - T
   - ''
   - ''
   - ''
@@ -241,17 +246,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - T
+  - T
   - {type: held}
-  - ''
-  - ''
-  - Numbers
+  - T
+  - T
+  - T
   Raize:
   - ''
   - ''

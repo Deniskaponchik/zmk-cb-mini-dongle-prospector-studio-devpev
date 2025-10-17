@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <2000>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <0>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
@@ -73,7 +73,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <2000>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <0>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
@@ -165,10 +165,10 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &mkp MCLK  &trans             &trans  &none   &none   &none   &trans  &trans
-&trans  &trans  &trans  &mkp MCLK  &trans     &trans             &trans  &trans  &trans  &trans  &trans  &trans
-                        &mkp MB2   &mkp LCLK  &kp PRINTSCREEN    &trans  &trans
+&trans  &trans  &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &none      &trans       &trans  &none   &none   &none   &trans  &trans
+&trans  &trans  &trans  &none     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                        &mkp MB2  &mkp LCLK  &mkp MCLK    &trans  &trans
             >;
         };
 
@@ -176,8 +176,8 @@
             display-name = "Move";
             bindings = <
 &none  &none  &none  &none         &none      &none         &trans  &trans         &trans     &trans     &trans         &trans
-&none  &none  &none  &kp LEFT      &kp RIGHT  &none         &trans  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &kp RIGHT_WIN  &trans
-&none  &none  &none  &kp HOME      &kp END    &none         &trans  &kp UP_ARROW   &kp DOWN   &trans     &trans         &trans
+&none  &none  &none  &kp LEFT      &kp RIGHT  &none         &none   &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &kp RIGHT_WIN  &trans
+&none  &none  &none  &kp HOME      &kp END    &none         &none   &kp UP_ARROW   &kp DOWN   &trans     &trans         &trans
                      &bt BT_SEL 0  &none      &bt BT_CLR    &none   &none
             >;
         };
@@ -205,10 +205,10 @@
         Symbols {
             display-name = "Sym";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &mo 3
+&kp T  &none  &none  &none  &none   &none    &none  &none  &none  &none  &none  &kp T
+&kp T  &none  &none  &none  &none   &none    &none  &none  &none  &none  &none  &kp T
+&kp T  &none  &none  &none  &none   &none    &none  &none  &none  &none  &none  &kp T
+                     &kp T  &trans  &kp T    &kp T  &kp T
             >;
         };
 
