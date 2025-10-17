@@ -97,12 +97,12 @@
 
         combo_reset_layer_left {
             key-positions = <20 24>;
-            bindings = <&to RESET>;
+            bindings = <&to 3>;
         };
 
         combo_reset_layer_right {
             key-positions = <25 29>;
-            bindings = <&to RESET>;
+            bindings = <&to 3>;
         };
 
         combo_reset_central {
@@ -155,7 +155,7 @@
         Base {
             display-name = "Base";
             bindings = <
-&none  &lt 4 Q        &kp W           &kp E          &kp R              &kp T        &kp Y      &kp U               &kp I           &kp O           &kp P                  &none
+&none  &lt 4 Q        &kp W           &kp E          &kp R              &kp T        &kp Y      &kp U               &kp I           &kp O           &lt 3 P                &none
 &none  &hml_s LGUI A  &hml_s LSHFT S  &hml LCTRL D   &hml_s LEFT_ALT F  &kp G        &kp H      &hmr_s RIGHT_ALT J  &hmr_s RCTRL K  &hmr_s RSHFT L  &hmr_s RIGHT_GUI SEMI  &none
 &none  &lt 1 Z        &mt LC(X) X     &mt LC(C) C    &mt LC(V) V        &kp B        &kp N      &kp M               &kp COMMA       &kp DOT         &lt 2 FSLH             &none
                                       &kp BACKSPACE  &lt 5 SPACE        &mkp LCLK    &kp ENTER  &lt 6 TAB
@@ -166,8 +166,8 @@
             display-name = "Mouse";
             bindings = <
 &trans  &trans  &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &none      &trans       &trans  &none   &none   &none   &trans  &trans
-&trans  &trans  &trans  &none     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
                         &mkp MB2  &mkp LCLK  &mkp MCLK    &trans  &trans
             >;
         };
@@ -175,20 +175,20 @@
         Move {
             display-name = "Move";
             bindings = <
-&none  &none  &none  &none         &none      &none         &trans  &trans         &trans     &trans     &trans         &trans
-&none  &none  &none  &kp LEFT      &kp RIGHT  &none         &none   &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &kp RIGHT_WIN  &trans
-&none  &none  &none  &kp HOME      &kp END    &none         &none   &kp UP_ARROW   &kp DOWN   &trans     &trans         &trans
-                     &bt BT_SEL 0  &none      &bt BT_CLR    &none   &none
+&none  &none  &none  &none         &none      &none         &none  &none          &none      &none      &none          &none
+&none  &none  &none  &kp LEFT      &kp RIGHT  &none         &none  &kp RIGHT_ALT  &kp RCTRL  &kp RSHFT  &kp RIGHT_WIN  &none
+&none  &none  &none  &kp HOME      &kp END    &none         &none  &kp UP_ARROW   &kp DOWN   &none      &none          &none
+                     &bt BT_SEL 0  &none      &bt BT_CLR    &none  &none
             >;
         };
 
         Boot {
             display-name = "Numbers";
             bindings = <
-&none  &none          &none          &none           &none          &bt BT_CLR       &soft_off  &none  &none  &none  &none  &none
-&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4     &none      &none  &none  &none  &none  &none
-&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2   &bt BT_DISC 3  &bt BT_DISC 4    &none      &none  &none  &none  &none  &none
-                                     &studio_unlock  &none          &bootloader      &mo 0      &none
+&none  &none          &none          &none          &none           &none            &soft_off  &none  &none  &none  &trans  &none
+&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4     &none      &none  &none  &none  &none   &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4    &none      &none  &none  &none  &none   &none
+                                     &bootloader    &studio_unlock  &bt BT_CLR       &none      &none
             >;
         };
 

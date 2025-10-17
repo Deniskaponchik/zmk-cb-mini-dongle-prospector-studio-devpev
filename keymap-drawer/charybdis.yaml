@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: Numbers}
   - ''
   - ''
   - {t: A, h: LGUI}
@@ -59,18 +59,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -91,12 +91,12 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -108,7 +108,7 @@ layers:
   - RCTRL
   - RSHFT
   - RIGHT WIN
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - ''
   - ''
@@ -118,9 +118,9 @@ layers:
   - ''
   - UP ARROW
   - DOWN
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - {t: BT, h: '0'}
   - ''
   - BT CLR
@@ -132,12 +132,12 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
+  - ''
   - '&soft_off'
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - {t: BT, h: '0'}
@@ -163,10 +163,10 @@ layers:
   - ''
   - ''
   - ''
-  - ZMK Studio
-  - ''
   - BOOT LDR
-  - Base
+  - ZMK Studio
+  - BT CLR
+  - ''
   - ''
   Macros:
   - ''
@@ -296,9 +296,9 @@ layers:
   - {type: held}
 combos:
 - p: [20, 24]
-  k: {t: Raize, h: toggle}
+  k: {t: Numbers, h: toggle}
 - p: [25, 29]
-  k: {t: Raize, h: toggle}
+  k: {t: Numbers, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
