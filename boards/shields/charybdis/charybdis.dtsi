@@ -4,9 +4,10 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+
 		//original
         zmk,physical-layout = &charybdis_6col_layout;
-		//from devpev-zmk-charybdis-mini-wireless:
+		//from devpev-zmk-charybdis-mini-wireless. not work
 		//zmk,matrix_transform = &default_transform;
     };
 
@@ -25,9 +26,9 @@
 	
     kscan0: kscan {
 		//original
-        //diode-direction = "row2col";
+        diode-direction = "row2col";
 
-		//from devpev-zmk-charybdis-mini-wireless:
+		/*from devpev-zmk-charybdis-mini-wireless. not work
 		compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "row2col";
@@ -37,6 +38,7 @@
 			, <&pro_micro 4 GPIO_ACTIVE_HIGH>
 			, <&pro_micro 9 GPIO_ACTIVE_HIGH>
             ;
+		*/
     };
 
     charybdis_6col_layout: charybdis_6col_layout {
@@ -106,6 +108,7 @@
         };
     };
 };
+
 
 
 
