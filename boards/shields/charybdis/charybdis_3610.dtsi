@@ -14,40 +14,40 @@
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
-            // ORGINAL
+            /* ORGINAL
             psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
-                <NRF_PSEL(SPIM_MISO, 0, 17)>;
+                <NRF_PSEL(SPIM_MISO, 0, 17)>; */
 
              /* middle
             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
                 <NRF_PSEL(SPIM_MISO, 0, 17)>; */
 
-            /*from devpev-zmk-charybdis-mini-wireless:
+            //from devpev-zmk-charybdis-mini-wireless:
             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 10)>,
-                <NRF_PSEL(SPIM_MISO, 0, 10)>; */
+                <NRF_PSEL(SPIM_MISO, 0, 10)>;
         };
     };
 
     spi0_sleep: spi0_sleep {
         group1 {
 
-             // ORGINAL
+             /*ORGINAL
             psels = <NRF_PSEL(SPIM_SCK, 0, 8)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
-                <NRF_PSEL(SPIM_MISO, 0, 17)>;
+                <NRF_PSEL(SPIM_MISO, 0, 17)>; */
 
             /* middle
             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 17)>,
                 <NRF_PSEL(SPIM_MISO, 0, 17)>; */
 
-             /*from devpev-zmk-charybdis-mini-wireless:
+             //from devpev-zmk-charybdis-mini-wireless:
             psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
                 <NRF_PSEL(SPIM_MOSI, 0, 10)>,
-                <NRF_PSEL(SPIM_MISO, 0, 10)>; */
+                <NRF_PSEL(SPIM_MISO, 0, 10)>;
 
             low-power-enable;
         };
@@ -68,10 +68,10 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
 
-        // ORGINAL
-        irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        /*from devpev-zmk-charybdis-mini-wireless:
-        irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; */
+        /* ORGINAL
+        irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; */
+        //from devpev-zmk-charybdis-mini-wireless:
+        irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
         cpi = <800>;
         evt-type = <INPUT_EV_REL>;
@@ -79,6 +79,7 @@
         y-input-code = <INPUT_REL_Y>;
     };
 };
+
 
 
 
