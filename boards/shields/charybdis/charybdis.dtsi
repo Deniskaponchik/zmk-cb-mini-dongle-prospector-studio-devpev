@@ -4,7 +4,10 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &charybdis_6col_layout;
+		//otiginal
+        //zmk,physical-layout = &charybdis_6col_layout;
+		//from devpev-zmk-charybdis-mini-wireless:
+		zmk,matrix_transform = &default_transform;
     };
 
     default_transform: keymap_transform_0 {
@@ -91,3 +94,4 @@
         };
     };
 };
+
