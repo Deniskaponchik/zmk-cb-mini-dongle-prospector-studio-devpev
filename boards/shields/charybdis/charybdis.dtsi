@@ -28,6 +28,8 @@
 		//original
         diode-direction = "row2col";
 
+		wakeup-source; // my setting
+
 		/*from devpev-zmk-charybdis-mini-wireless. not work
 		compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
@@ -108,6 +110,7 @@
         };
     };
 };
+
 
 
 
