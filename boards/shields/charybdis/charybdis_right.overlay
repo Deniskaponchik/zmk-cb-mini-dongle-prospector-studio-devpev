@@ -8,6 +8,7 @@
 
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
+	wakeup-source; // my setting
 	
 	col-gpios
 		= <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -29,3 +30,4 @@
 &trackball_split {
     device = <&trackball>;
 };
+
