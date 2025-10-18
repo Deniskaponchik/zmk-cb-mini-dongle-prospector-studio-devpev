@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: Numbers}
+  - {t: P, h: Boot}
   - ''
   - ''
   - {t: A, h: LGUI}
@@ -40,8 +40,8 @@ layers:
   - BACK SPACE
   - {t: SPACE, h: Sym}
   - L CLK
-  - ENTER
-  - {t: TAB, h: Raize}
+  - TAB
+  - {t: ENTER, h: Raize}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,12 +121,12 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: BT, h: '0'}
-  - ''
-  - BT CLR
   - ''
   - ''
-  Numbers:
+  - ''
+  - ''
+  - ''
+  Boot:
   - ''
   - ''
   - ''
@@ -167,7 +167,7 @@ layers:
   - ZMK Studio
   - BT CLR
   - ''
-  - ''
+  - '&soft_off'
   Macros:
   - ''
   - {type: held}
@@ -291,14 +291,14 @@ layers:
   - ''
   - BACK SPACE
   - PAUSE BREAK
-  - ENTER
+  - PRINT SCREEN
   - ''
   - {type: held}
 combos:
 - p: [20, 24]
-  k: {t: Numbers, h: toggle}
+  k: {t: Boot, h: toggle}
 - p: [25, 29]
-  k: {t: Numbers, h: toggle}
+  k: {t: Boot, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
