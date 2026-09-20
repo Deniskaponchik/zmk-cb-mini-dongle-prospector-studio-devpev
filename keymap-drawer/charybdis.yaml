@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - {t: ESCAPE, h: Function}
+  - ''
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - TAB
+  - ''
+  - ''
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
-  - ''''
-  - LSHFT
+  - ''
+  - ''
   - Z
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - ']'
+  - ''
   - LCTRL
   - Symbol
   - {t: RET, h: LGUI}
@@ -169,7 +169,7 @@ layers:
   - {type: held}
   - ''
   Function:
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+Alt+ DEL
   - F7
   - F8
@@ -196,8 +196,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - F1
-  - F2
-  - F3
+  - {t: F2, type: held}
+  - {t: F3, type: held}
   - DEV TOOLS
   - ''
   - ''
