@@ -127,45 +127,45 @@ layers:
   - ''
   - ''
   Symbol:
-  - {t: ▽, type: trans}
   - ''
-  - '7'
-  - '8'
-  - '9'
   - ''
+  - F8
+  - '!'
+  - F11
+  - DEV TOOLS
   - ''
   - PG UP
   - UP
   - PG DN
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHFT}
-  - {t: '6', h: LCTRL}
   - ''
+  - ''
+  - ':'
+  - {t: '`', h: LEFT SHIFT}
+  - '?'
+  - KP COMMA
+  - '['
   - ''
   - {t: LEFT, h: RCTRL}
   - {t: DOWN, h: RSHFT}
   - {t: RIGHT, h: RALT}
   - RGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
-  - '1'
-  - '2'
-  - '3'
-  - Ctl+ -
+  - ''
+  - F1
+  - F2
+  - F4
+  - F5
+  - ;
   - Ctl+ =
   - HOME
   - {t: ▽, type: trans}
   - END
   - ''
-  - {t: ▽, type: trans}
-  - .
-  - {t: '0', type: held}
-  - SPACE
+  - ''
+  - PAUSE
+  - {type: held}
+  - DELETE
   - {t: ▽, type: trans}
   - ''
   Moving:
