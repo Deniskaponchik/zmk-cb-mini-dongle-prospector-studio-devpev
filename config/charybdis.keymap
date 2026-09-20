@@ -154,10 +154,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&none  &kp Q        &kp W        &kp E         &kp R         &kp T           &kp Y             &kp U         &kp I         &kp O        &kp P           &none
-&none  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G           &kp H             &hmr RCTRL J  &hmr RSHFT K  &hmr RALT L  &hmr LGUI SEMI  &none
-&none  &kp Z        &mt LC(X) X  &mt LC(C) C   &kp V         &mt LC(V) B     &kp N             &kp M         &kp COMMA     &kp DOT      &kp FSLH        &none
-                                 &kp LCTRL     &mo 2         &mt LGUI RET    &lt NUMBER SPACE  &kp BSPC
+&none  &kp Q    &kp W         &kp E        &kp R            &kp T           &kp Y             &kp U            &kp I         &kp O         &kp P                   &none
+&none  &lt 4 A  &hml LSHFT S  &lt 1 D      &hml LEFT_ALT F  &kp G           &kp H             &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &none
+&none  &kp Z    &mt LC(X) X   &mt LC(C) C  &kp V            &mt LC(V) B     &kp N             &kp M            &kp COMMA     &kp DOT       &kp FSLH                &none
+                              &kp LCTRL    &mo 2            &mt LGUI RET    &lt NUMBER SPACE  &kp BSPC
             >;
         };
 
@@ -191,8 +191,8 @@
             >;
         };
 
-        Fun {
-            display-name = "Function";
+        Move {
+            display-name = "Moving";
             bindings = <
 &trans  &kp LC(LA(DEL))  &kp F7  &kp F8  &kp F9  &kp F10    &none  &none      &none      &none     &none     &trans
 &trans  &none            &kp F4  &kp F5  &kp F6  &kp F11    &none  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans

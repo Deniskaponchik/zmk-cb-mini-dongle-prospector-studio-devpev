@@ -14,16 +14,16 @@ layers:
   - P
   - ''
   - ''
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - {t: A, h: Moving}
+  - {t: S, h: LSHFT}
+  - {t: D, h: Mouse}
+  - {t: F, h: LEFT ALT}
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: LGUI}
+  - {t: J, h: LEFT ALT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LSHFT}
+  - {t: '''', h: LGUI}
   - ''
   - ''
   - Z
@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - LGUI
   - LALT
-  - LSHFT
+  - {t: LSHFT, type: held}
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - SPACE
   - {type: held}
   - ''
-  Function:
+  Moving:
   - {t: ▽, type: trans}
   - Ctl+Alt+ DEL
   - F7
@@ -182,7 +182,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - F4
   - F5
   - F6
@@ -196,8 +196,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - F1
-  - {t: F2, type: held}
-  - {t: F3, type: held}
+  - F2
+  - F3
   - DEV TOOLS
   - ''
   - ''
@@ -304,7 +304,7 @@ combos:
 - p: [7, 8]
   k: {t: Base, h: toggle}
 - p: [27, 28]
-  k: {t: Function, h: sticky}
+  k: {t: Moving, h: sticky}
 - p: [5, 9]
   k: {t: Game, h: toggle}
 - p: [1, 2]
