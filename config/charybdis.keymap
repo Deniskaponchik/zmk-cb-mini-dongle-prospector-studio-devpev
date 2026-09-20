@@ -184,10 +184,10 @@
         Sym {
             display-name = "Symbol";
             bindings = <
-&none  &none      &kp F8                   &kp EXCLAMATION  &kp F11       &kp F12             &none          &kp PG_UP          &kp UP             &kp PG_DN          &none     &none
-&none  &kp COLON  &hml_s LEFT_SHIFT GRAVE  &kp QUESTION     &kp KP_COMMA  &kp LEFT_BRACKET    &none          &hmr_s RCTRL LEFT  &hmr_s RSHFT DOWN  &hmr_s RALT RIGHT  &kp RGUI  &none
-&none  &kp F1     &kp F2                   &kp F4           &kp F5        &kp SEMICOLON       &kp LC(EQUAL)  &kp HOME           &trans             &kp END            &none     &none
-                                           &kp C_PAUSE      &trans        &kp DELETE          &trans         &none
+&none  &none      &kp F8                   &kp EXCLAMATION  &kp F11       &kp F12             &kp PERCENT        &kp PIPE               &none              &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &none
+&none  &kp COLON  &hml_s LEFT_SHIFT GRAVE  &kp QUESTION     &kp KP_COMMA  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &mt LEFT_ALT KP_SLASH  &kp DOUBLE_QUOTES  &mt LEFT_SHIFT KP_MULTIPLY  &kp MINUS              &none
+&none  &kp F1     &kp F2                   &kp F4           &kp F5        &kp SEMICOLON       &kp AT_SIGN        &kp POUND              &kp DOLLAR         &kp AMPERSAND               &kp EQUAL              &none
+                                           &kp C_PAUSE      &trans        &kp DELETE          &kp DELETE         &trans
             >;
         };
 

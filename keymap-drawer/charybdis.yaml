@@ -133,11 +133,11 @@ layers:
   - '!'
   - F11
   - DEV TOOLS
+  - '%'
+  - '|'
   - ''
-  - PG UP
-  - UP
-  - PG DN
-  - ''
+  - (
+  - )
   - ''
   - ''
   - ':'
@@ -145,11 +145,11 @@ layers:
   - '?'
   - KP COMMA
   - '['
-  - ''
-  - {t: LEFT, h: RCTRL}
-  - {t: DOWN, h: RSHFT}
-  - {t: RIGHT, h: RALT}
-  - RGUI
+  - ']'
+  - {t: KP SLASH, h: LEFT ALT}
+  - '"'
+  - {t: KP MULTIPLY, h: LEFT SHIFT}
+  - '-'
   - ''
   - ''
   - F1
@@ -157,17 +157,17 @@ layers:
   - F4
   - F5
   - ;
-  - Ctl+ =
-  - HOME
-  - {t: ▽, type: trans}
-  - END
-  - ''
+  - '@'
+  - '#'
+  - $
+  - '&'
+  - '='
   - ''
   - PAUSE
   - {type: held}
   - DELETE
+  - DELETE
   - {t: ▽, type: trans}
-  - ''
   Moving:
   - {t: ▽, type: trans}
   - Ctl+Alt+ DEL
