@@ -26,22 +26,22 @@ layers:
   - {t: '''', h: LGUI}
   - ''
   - ''
-  - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
+  - {t: Z, h: Moving}
+  - X
+  - C
   - V
-  - {t: B, h: Ctl+ V}
+  - B
   - N
   - M
   - ','
   - .
-  - /
+  - KP DOT
   - ''
-  - LCTRL
-  - Symbol
-  - {t: RET, h: LGUI}
-  - {t: SPACE, h: Number}
-  - BSPC
+  - BACK SPACE
+  - {t: SPACE, h: Symbol}
+  - L CLK
+  - TAB
+  - {t: ENTER, h: Symbol}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,8 +70,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Number
   - Symbol
+  - Empty2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Symbol:
+  Empty2:
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - (
+  - {t: (, type: held}
   - )
   - ':'
   - +
@@ -113,7 +113,7 @@ layers:
   - ''
   - ''
   - '['
-  - ']'
+  - {t: ']', type: held}
   - '?'
   - '&'
   - '='
@@ -122,11 +122,11 @@ layers:
   - '"'
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
-  Number:
+  Symbol:
   - {t: ▽, type: trans}
   - ''
   - '7'
@@ -164,9 +164,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - .
-  - '0'
+  - {t: '0', type: held}
   - SPACE
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   Moving:
   - {t: ▽, type: trans}
