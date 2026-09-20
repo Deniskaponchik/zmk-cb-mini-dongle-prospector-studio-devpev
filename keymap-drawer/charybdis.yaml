@@ -43,47 +43,47 @@ layers:
   - TAB
   - {t: ENTER, h: Symbol}
   Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - LSHFT
   - LALT
-  - {t: LSHFT, type: held}
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
+  - {type: held}
+  - M CLK
+  - ''
+  - ''
+  - {t: '4', h: LEFT ALT}
+  - {t: '5', h: LCTRL}
+  - {t: '6', h: LSHFT}
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '1'
+  - '2'
+  - '3'
+  - KP PLUS
+  - ''
+  - M CLK
   - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Symbol
-  - Empty2
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACK SPACE
+  - DELETE
   Empty2:
   - {t: ▽, type: trans}
   - ''
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: (, type: held}
+  - (
   - )
   - ':'
   - +
@@ -113,7 +113,7 @@ layers:
   - ''
   - ''
   - '['
-  - {t: ']', type: held}
+  - ']'
   - '?'
   - '&'
   - '='
