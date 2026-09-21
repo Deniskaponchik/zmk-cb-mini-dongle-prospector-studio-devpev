@@ -16,20 +16,10 @@
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
 #define THUMBS 30 31 32 33 34 35
 
-// Optional: Overwrite default behavior properties
+
 &uc {
-  //default-mode = <UC_MODE_LINUX>;        // Default to Linux input system
-  //default-mode = <UC_MODE_WIN_COMPOSE>;  // Default to Windows (WinCompose)
-  default-mode = <UC_MODE_WIN_ALT>;        // Default to Windows (HexNumpad)
-
- //Padding. Regardless of whether leading zeros are omitted on the keymap, they are omitted, 
- //by default, when the code point is send to the OS. 
- //This tends to be more reliable for input systems that I have personally tested. 
- //Should this cause issues, one can force padding to a minimum length using the
-  minimum-length = <0>;            // Set to desired minimum input length
-
-  //linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
-  //win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+  default-mode = <UC_MODE_WIN_ALT>;
+  minimum-length = <0>;
 };
 
 &sk {
