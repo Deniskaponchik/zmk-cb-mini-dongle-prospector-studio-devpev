@@ -22,14 +22,14 @@
   //default-mode = <UC_MODE_WIN_COMPOSE>;  // Default to Windows (WinCompose)
   default-mode = <UC_MODE_WIN_ALT>;        // Default to Windows (HexNumpad)
 
-//Padding. Regardless of whether leading zeros are omitted on the keymap, they are omitted, 
-//by default, when the code point is send to the OS. 
-//This tends to be more reliable for input systems that I have personally tested. 
-//Should this cause issues, one can force padding to a minimum length using the
+ //Padding. Regardless of whether leading zeros are omitted on the keymap, they are omitted, 
+ //by default, when the code point is send to the OS. 
+ //This tends to be more reliable for input systems that I have personally tested. 
+ //Should this cause issues, one can force padding to a minimum length using the
   minimum-length = <0>;            // Set to desired minimum input length
 
-  linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
-  win-compose-key = <RALT>;        // Overwrite WinCompose compose key
+  //linux-key = <LC(LS(U))>;         // Overwrite Linux compose key
+  //win-compose-key = <RALT>;        // Overwrite WinCompose compose key
 };
 
 &sk {
@@ -233,7 +233,7 @@
         Reset {
             display-name = "Reset";
             bindings = <
-&trans  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &trans
+&trans  &none  &none  &none  &none  &uc UC_DE_AE   &none        &none  &none  &none  &none  &trans
 &trans  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &trans
 &trans  &none  &none  &none  &none  &none          &none        &none  &none  &none  &none  &trans
                       &none  &none  &bootloader    &bootloader  &none
