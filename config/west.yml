@@ -11,8 +11,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      #revision: main   #original
-      revision: v0.3    #Should match ZMK release.
+      revision: main   #original
+      #revision: v0.3    #Should match ZMK release.
       import: app/west.yml
     - name: zmk-unicode
       remote: urob
