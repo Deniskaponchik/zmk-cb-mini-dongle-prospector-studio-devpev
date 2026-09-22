@@ -36,7 +36,7 @@
 
     move {
       layers = <DEF MOUSE>;
-      //СТОЯЛА 1000
+      //СКОЛЬКО ВРЕМЕНИ ПОСЛЕ ОСТАНОВКИ ТРЕКБОЛА БУДЕТ ВКЛЮЧЕН СЛОЙ MOUSE. СТОЯЛА 1000
       input-processors = <&auto_mouse_layer MOUSE 0>;
     };
   };
