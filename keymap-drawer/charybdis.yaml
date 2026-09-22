@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - KP DOT
+  - ']'
   - ''
   - BACK SPACE
   - {t: SPACE, h: Symbol}
