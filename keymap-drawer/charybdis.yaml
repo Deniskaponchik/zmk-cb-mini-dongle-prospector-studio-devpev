@@ -6,12 +6,12 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: AGr+ T}
   - Y
   - U
   - {t: I, h: AGr+ I}
   - O
-  - P
+  - {t: P, h: /}
   - ''
   - ''
   - {t: A, h: Moving}
@@ -32,10 +32,10 @@ layers:
   - V
   - B
   - N
-  - M
+  - {t: M, h: AGr+ M}
   - ','
   - .
-  - ']'
+  - {t: ']', h: '['}
   - ''
   - BACK SPACE
   - {t: SPACE, h: Symbol}

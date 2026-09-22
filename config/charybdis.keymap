@@ -154,10 +154,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&none  &kp Q    &kp W         &kp E          &kp R            &kp T         &kp Y    &kp U            &mt RA(I) I   &kp O         &kp P                   &none
-&none  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G    &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &none
-&none  &lt 4 Z  &kp X         &kp C          &kp V            &kp B         &kp N    &kp M            &kp COMMA     &kp DOT       &kp RBKT                &none
-                              &kp BACKSPACE  &lt 3 SPACE      &mkp LCLK     &kp TAB  &lt 3 ENTER
+&none  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P              &none
+&none  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G     &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &none
+&none  &lt 4 Z  &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT           &none
+                              &kp BACKSPACE  &lt 3 SPACE      &mkp LCLK      &kp TAB  &lt 3 ENTER
             >;
         };
 
