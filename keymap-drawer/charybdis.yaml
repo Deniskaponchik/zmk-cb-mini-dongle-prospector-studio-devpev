@@ -9,7 +9,7 @@ layers:
   - T
   - Y
   - U
-  - I
+  - {t: I, h: AGr+ I}
   - O
   - P
   - ''
@@ -18,7 +18,7 @@ layers:
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
   - {t: F, h: LEFT ALT}
-  - G
+  - {t: G, h: CAPS}
   - H
   - {t: J, h: LEFT ALT}
   - {t: K, h: LCTRL}
