@@ -128,14 +128,14 @@ layers:
   - ''
   Symbol:
   - ''
-  - {t: F8, h: '`'}
+  - {t: F8, h: AGr+ `}
   - ''
   - F11
   - DEV TOOLS
   - AGr+Sft+ .
   - AGr+Sft+ /
   - '6'
-  - '|'
+  - Sft+ \
   - ''
   - ''
   - ''
@@ -146,8 +146,8 @@ layers:
   - {t: '4', h: 'AGr+ ,'}
   - '9'
   - '0'
-  - {t: KP SLASH, h: Sft+ \}
-  - {t: Sft+ ', h: Sft+ "}
+  - {t: \, h: AGr+ \}
+  - {t: '`', h: Sft+ `}
   - {t: '8', h: '3'}
   - {t: '-', h: _}
   - ''

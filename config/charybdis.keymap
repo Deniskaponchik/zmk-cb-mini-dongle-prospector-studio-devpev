@@ -185,10 +185,10 @@
         Sym {
             display-name = "Symbol";
             bindings = <
-&none  &mt GRAVE F8    &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6           &kp PIPE                                &none      &none                  &none
-&none  &mt EQUAL PLUS  &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RS(BSLH) KP_SLASH  &mt LS(DOUBLE_QUOTES) LS(SINGLE_QUOTE)  &mt N3 N8  &mt UNDER MINUS        &none
-&none  &kp F1          &kp F2           &kp F4           &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &kp LEFT_ALT           &kp LEFT_CONTROL                        &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
-                                        &kp C_PAUSE      &trans                  &kp DELETE         &kp DELETE        &trans
+&none  &mt RA(GRAVE) F8  &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6       &kp LS(BACKSLASH)    &none      &none                  &none
+&none  &mt EQUAL PLUS    &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RA(BSLH) BSLH  &mt LS(GRAVE) GRAVE  &mt N3 N8  &mt UNDER MINUS        &none
+&none  &kp F1            &kp F2           &kp F4           &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &kp LEFT_ALT       &kp LEFT_CONTROL     &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
+                                          &kp C_PAUSE      &trans                  &kp DELETE         &kp DELETE        &trans
             >;
         };
 
