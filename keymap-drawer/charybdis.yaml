@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - ''
+  - {t: BT, h: '0'}
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - {t: I, h: AGr+ I}
   - O
   - {t: P, h: /}
-  - ''
-  - ''
+  - ZMK Studio
+  - {t: BT, h: '1'}
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: LSHFT}
   - {t: '''', h: LGUI}
   - ''
-  - ''
+  - {t: BT, h: '2'}
   - {t: Z, h: Moving}
   - X
   - C
