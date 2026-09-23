@@ -12,7 +12,7 @@ layers:
   - {t: I, h: AGr+ I}
   - O
   - {t: P, h: /}
-  - ZMK Studio
+  - BOOT LDR
   - {t: BT, h: '1'}
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - {t: ']', h: '['}
-  - ''
+  - '&soft_off'
   - BACK SPACE
   - {t: SPACE, h: Symbol}
   - L CLK
@@ -128,40 +128,40 @@ layers:
   - ''
   Symbol:
   - ''
-  - ''
   - F8
-  - '!'
+  - ''
   - F11
   - DEV TOOLS
-  - '%'
+  - ''
+  - ''
+  - ''
   - '|'
   - ''
-  - (
-  - )
   - ''
   - ''
-  - ':'
+  - ''
+  - ''
   - {t: '`', h: LEFT SHIFT}
-  - '?'
-  - KP COMMA
-  - '['
-  - ']'
-  - {t: KP SLASH, h: LEFT ALT}
-  - '"'
-  - {t: KP MULTIPLY, h: LEFT SHIFT}
-  - '-'
+  - {t: '7', h: '1'}
+  - ''
+  - '9'
+  - '0'
+  - {t: KP SLASH, h: \}
+  - {t: '''', h: '"'}
+  - {t: '8', h: '3'}
+  - {t: '-', h: _}
   - ''
   - ''
   - F1
   - F2
-  - F4
+  - {t: F4, h: Alt+ F4}
   - F5
-  - ;
-  - '@'
-  - '#'
-  - $
-  - '&'
-  - '='
+  - AGr+ .
+  - AGr+ /
+  - ''
+  - ''
+  - ''
+  - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
   - PAUSE
   - {type: held}
