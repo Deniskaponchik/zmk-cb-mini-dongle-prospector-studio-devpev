@@ -71,7 +71,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: F24, h: Snipe}
   - ''
   - '8'
   - Sft+ 1
@@ -210,48 +210,48 @@ layers:
   - DELETE
   - DELETE
   - ''
-  Game:
-  - ESCAPE
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  Snipe:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
   - {t: ▽, type: trans}
-  - LALT
-  - SPACE
-  - M
-  - T
-  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Reset:
   - {t: ▽, type: trans}
   - ''
@@ -306,7 +306,7 @@ combos:
 - p: [27, 28]
   k: '&soft_off'
 - p: [5, 9]
-  k: {t: Game, h: toggle}
+  k: {t: Snipe, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
