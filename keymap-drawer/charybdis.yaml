@@ -128,7 +128,7 @@ layers:
   - ''
   Symbol:
   - ''
-  - F8
+  - {t: F8, h: '`'}
   - ''
   - F11
   - DEV TOOLS
@@ -147,20 +147,20 @@ layers:
   - '9'
   - '0'
   - {t: KP SLASH, h: Sft+ \}
-  - {t: '''', h: '"'}
+  - {t: Sft+ ', h: Sft+ "}
   - {t: '8', h: '3'}
   - {t: '-', h: _}
   - ''
   - ''
   - F1
   - F2
-  - {t: F4, h: Alt+ F4}
+  - F4
   - F5
   - AGr+ .
   - AGr+ /
-  - ''
-  - ''
-  - ''
+  - LEFT ALT
+  - LEFT CONTROL
+  - LSHFT
   - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
   - PAUSE
@@ -304,7 +304,7 @@ combos:
 - p: [7, 8]
   k: {t: Base, h: toggle}
 - p: [27, 28]
-  k: {t: Moving, h: sticky}
+  k: '&soft_off'
 - p: [5, 9]
   k: {t: Game, h: toggle}
 - p: [1, 2]

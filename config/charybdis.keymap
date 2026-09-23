@@ -116,9 +116,9 @@
             bindings = <&to BASE>;
         };
 
-        combo_fn {
+        combo_SOFT_OFF {
             key-positions = <27 28>;
-            bindings = <&sl FUNCTION>;
+            bindings = <&soft_off>;
         };
 
         combo_genshin {
@@ -185,9 +185,9 @@
         Sym {
             display-name = "Symbol";
             bindings = <
-&none  &kp F8          &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6           &kp PIPE                        &none      &none                  &none
-&none  &mt EQUAL PLUS  &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RS(BSLH) KP_SLASH  &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt N3 N8  &mt UNDER MINUS        &none
-&none  &kp F1          &kp F2           &mt LA(F4) F4    &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &none                  &none                           &none      &mt LS(LBKT) LS(RBKT)  &none
+&none  &mt GRAVE F8    &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6           &kp PIPE                                &none      &none                  &none
+&none  &mt EQUAL PLUS  &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RS(BSLH) KP_SLASH  &mt LS(DOUBLE_QUOTES) LS(SINGLE_QUOTE)  &mt N3 N8  &mt UNDER MINUS        &none
+&none  &kp F1          &kp F2           &kp F4           &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &kp LEFT_ALT           &kp LEFT_CONTROL                        &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
                                         &kp C_PAUSE      &trans                  &kp DELETE         &kp DELETE        &trans
             >;
         };
