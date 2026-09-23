@@ -1,6 +1,6 @@
 file_format: "1"
-id: charybdis Mini 3x6
-name: Charybdis Mini 3x6
+id: charybdis
+name: CharybdiS
 type: shield
 url: https://github.com/bastardkb/charybdis/
 requires: [pro_micro]
