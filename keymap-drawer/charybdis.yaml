@@ -59,7 +59,7 @@ layers:
   - LSHFT
   - LALT
   - {type: held}
-  - M CLK
+  - {t: F24, h: Scrool}
   - ''
   - ''
   - {t: Sft+ 4, h: LEFT ALT}
@@ -84,48 +84,48 @@ layers:
   - '&mkp MB1'
   - BACK SPACE
   - DELETE
-  Empty2:
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '{'
-  - '}'
-  - '|'
-  - '`'
-  - '~'
-  - <
-  - '>'
-  - \
+  Scrool:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - (
-  - )
-  - ':'
-  - +
-  - '-'
-  - /
-  - '*'
-  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '['
-  - ']'
-  - '?'
-  - '&'
-  - '='
-  - _
-  - .
-  - '"'
   - {t: ▽, type: trans}
-  - ''
-  - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Symbol:
   - ''
   - {t: F8, h: AGr+ `}
