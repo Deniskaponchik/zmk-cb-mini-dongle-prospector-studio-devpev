@@ -43,7 +43,8 @@
         status = "okay";
         compatible = "pixart,pmw3610-alt";
         reg = <0>;
-        spi-max-frequency = <2000000>;
+        //СТОЯЛО 2000000
+        spi-max-frequency = <4000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         //ЧУВСТВИТЕЛЬНОСТЬ ТРЕКБОЛА. СТОЯЛО 600
         cpi = <500>;
