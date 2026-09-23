@@ -1,12 +1,12 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define DEF 0
-#define MOUSE 1
-#define SYM 2
-#define NUM 3
-#define FN 4
-#define GENSHIN 5 
+#define BASE 0
+#define MOUS 1
+#define SCRL 2
+#define SYMB 3
+#define MVNG 4
+#define SNIP 5 
 
 / {
   split_inputs {
@@ -25,19 +25,19 @@
     device = <&trackball_split>;
 
     snipe {
-      layers = <NUM>;
+      layers = <SNIP>;
       input-processors = <&zip_xy_scaler 1 3>;
     };
 
     scroll {
-      layers = <FN>;
+      layers = <SCRL>;
       input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 3>, <&zip_xy_to_scroll_mapper>;
     };
 
     move {
-      layers = <DEF MOUSE>;
+      layers = <BASE MOUS>;
       //Через СКОЛЬКО милисекунд ПОСЛЕ ОСТАНОВКИ ТРЕКБОЛА БУДЕТ ВЫКЛЮЧЕН СЛОЙ MOUSE. СТОЯЛА 1000
-      input-processors = <&auto_mouse_layer MOUSE 10>;
+      input-processors = <&auto_mouse_layer MOUS 10>;
     };
   };
 
