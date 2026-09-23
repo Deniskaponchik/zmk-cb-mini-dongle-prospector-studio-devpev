@@ -23,12 +23,16 @@
     compatible = "zmk,input-listener";
     status = "disabled";
     device = <&trackball_split>;
+     /* base processor chain on all layers */
+    input-processors = <&zip_xy_scaler 5 5>;
 
+    /* layer-5 slow-pointer override */
     snipe {
       layers = <SNIP>;
       input-processors = <&zip_xy_scaler 1 3>;
     };
 
+    /* layer-2 scroll override */
     scroll {
       layers = <SCRL>;
       input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 3>, <&zip_xy_to_scroll_mapper>;
