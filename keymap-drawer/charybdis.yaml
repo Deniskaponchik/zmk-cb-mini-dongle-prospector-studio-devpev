@@ -17,7 +17,7 @@ layers:
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
-  - {t: F, h: Mouse}
+  - {t: F, h: LEFT ALT}
   - {t: G, h: CAPS}
   - H
   - {t: J, h: LEFT ALT}
@@ -38,7 +38,7 @@ layers:
   - {t: ']', h: '['}
   - '&soft_off'
   - BACK SPACE
-  - {t: SPACE, h: Symbol}
+  - {t: SPACE, h: Scrool}
   - L CLK
   - TAB
   - {t: ENTER, h: Symbol}
@@ -100,29 +100,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,10 +164,10 @@ layers:
   - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
   - PAUSE
-  - {type: held}
-  - DELETE
-  - DELETE
   - {t: ▽, type: trans}
+  - DELETE
+  - DELETE
+  - {type: held}
   Moving:
   - ''
   - ''
