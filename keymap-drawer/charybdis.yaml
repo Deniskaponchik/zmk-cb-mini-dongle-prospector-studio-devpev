@@ -17,7 +17,7 @@ layers:
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
-  - {t: F, h: LEFT ALT}
+  - {t: F, h: Mouse}
   - {t: G, h: CAPS}
   - H
   - {t: J, h: LEFT ALT}
