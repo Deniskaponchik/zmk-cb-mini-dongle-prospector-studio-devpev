@@ -154,7 +154,7 @@
         Base {
             display-name = "Base";
             bindings = <
-&kp A  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P              &kp A
+&kp A  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P              &soft_off
 &kp A  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G     &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &kp A
 &kp A  &lt 4 Z  &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT           &kp A
                               &kp BACKSPACE  &lt 3 SPACE      &mkp LCLK      &kp TAB  &lt 3 ENTER
@@ -164,10 +164,10 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-&none  &none      &none     &none      &none      &none       &none          &kp RS(N7)                 &kp RS(N8)        &kp RS(N9)              &kp RS(N0)   &none
-&none  &kp LSHFT  &kp LALT  &trans     &lt 2 F24  &none       &none          &mt LEFT_ALT RS(NUMBER_4)  &mt LCTRL RS(N5)  &mt LSHFT RS(NUMBER_6)  &kp MINUS    &none
-&none  &none      &none     &none      &lt 5 F24  &none       &kp N8         &kp RS(NUMBER_1)           &kp RS(NUMBER_2)  &kp RS(NUMBER_3)        &kp KP_PLUS  &none
-                            &mkp MCLK  &mkp MB2   &mkp MB1    &kp BACKSPACE  &kp DELETE
+&none  &none      &none     &none          &none      &none       &none          &kp RS(N7)                 &kp RS(N8)        &kp RS(N9)              &kp RS(N0)   &none
+&none  &kp LSHFT  &kp LALT  &trans         &mkp MCLK  &none       &none          &mt LEFT_ALT RS(NUMBER_4)  &mt LCTRL RS(N5)  &mt LSHFT RS(NUMBER_6)  &kp MINUS    &none
+&none  &none      &none     &none          &lt 5 F24  &none       &kp N8         &kp RS(NUMBER_1)           &kp RS(NUMBER_2)  &kp RS(NUMBER_3)        &kp KP_PLUS  &none
+                            &kp BACKSPACE  &mkp MB2   &mkp MB1    &kp BACKSPACE  &kp DELETE
             >;
         };
 

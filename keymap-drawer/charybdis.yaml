@@ -12,7 +12,7 @@ layers:
   - {t: I, h: AGr+ I}
   - O
   - {t: P, h: /}
-  - A
+  - '&soft_off'
   - A
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
@@ -59,7 +59,7 @@ layers:
   - LSHFT
   - LALT
   - {type: held}
-  - {t: F24, h: Scrool}
+  - M CLK
   - ''
   - ''
   - {t: Sft+ 4, h: LEFT ALT}
@@ -79,7 +79,7 @@ layers:
   - Sft+ 3
   - KP PLUS
   - ''
-  - M CLK
+  - BACK SPACE
   - '&mkp MB2'
   - '&mkp MB1'
   - BACK SPACE
@@ -100,8 +100,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
