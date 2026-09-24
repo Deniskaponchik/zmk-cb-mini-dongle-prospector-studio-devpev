@@ -97,12 +97,12 @@
 
         combo_reset_layer_left {
             key-positions = <20 24>;
-            bindings = <&to 6>;
+            bindings = <&to 0>;
         };
 
         combo_reset_layer_right {
             key-positions = <25 29>;
-            bindings = <&to 6>;
+            bindings = <&to 0>;
         };
 
         combo_reset_central {
@@ -157,7 +157,7 @@
             bindings = <
 &bt BT_SEL 0  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P      &soft_off
 &bt BT_SEL 1  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G     &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SEMI  &bt BT_CLR
-&bt BT_SEL 2  &lt 4 Z  &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT   &kp A
+&bt BT_SEL 2  &kp Z    &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT   &kp A
                                      &kp BACKSPACE  &lt 3 SPACE      &mkp LCLK      &kp TAB  &lt 3 ENTER
             >;
         };
@@ -172,16 +172,6 @@
             >;
         };
 
-        Sym {
-            display-name = "Symbol";
-            bindings = <
-&none  &mt RA(GRAVE) F8  &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6       &kp LS(BACKSLASH)    &none      &none                  &none
-&none  &mt EQUAL PLUS    &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RA(BSLH) BSLH  &mt LS(GRAVE) GRAVE  &mt N3 N8  &mt UNDER MINUS        &none
-&none  &kp F1            &kp F2           &kp F4           &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &kp LEFT_ALT       &kp LEFT_CONTROL     &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
-                                          &kp C_PAUSE      &trans                  &kp DELETE         &kp DELETE        &trans
-            >;
-        };
-
         Scrool {
             display-name = "Scrool";
             bindings = <
@@ -189,6 +179,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        Sym {
+            display-name = "Symbol";
+            bindings = <
+&none  &mt RA(GRAVE) F8  &none            &kp F11          &kp F12                 &kp RA(RS(DOT))    &kp RA(RS(FSLH))  &kp NUMBER_6       &kp LS(BACKSLASH)    &none      &none                  &none
+&none  &mt EQUAL PLUS    &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &kp N9             &kp N0            &mt RA(BSLH) BSLH  &mt LS(GRAVE) GRAVE  &mt N3 N8  &mt UNDER MINUS        &none
+&none  &kp F1            &kp F2           &kp F4           &kp F5                  &kp RA(DOT)        &kp RA(FSLH)      &kp LEFT_ALT       &kp LEFT_CONTROL     &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
+                                          &kp C_PAUSE      &trans                  &kp DELETE         &kp DELETE        &trans
             >;
         };
 

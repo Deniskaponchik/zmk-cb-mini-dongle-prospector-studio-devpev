@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: LGUI}
   - BT CLR
   - {t: BT, h: '2'}
-  - {t: Z, h: Moving}
+  - Z
   - X
   - C
   - V
@@ -38,10 +38,10 @@ layers:
   - {t: ']', h: '['}
   - A
   - BACK SPACE
-  - {t: SPACE, h: Scrool}
+  - {t: SPACE, h: Symbol}
   - L CLK
   - TAB
-  - {t: ENTER, h: Scrool}
+  - {t: ENTER, h: Symbol}
   Mouse:
   - ''
   - ''
@@ -84,48 +84,6 @@ layers:
   - '&mkp MB1'
   - BACK SPACE
   - DELETE
-  Symbol:
-  - ''
-  - {t: F8, h: AGr+ `}
-  - ''
-  - F11
-  - DEV TOOLS
-  - AGr+Sft+ .
-  - AGr+Sft+ /
-  - '6'
-  - Sft+ \
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: +, h: '='}
-  - {t: '2', h: '5'}
-  - {t: '7', h: '1'}
-  - {t: '4', h: 'AGr+ ,'}
-  - '9'
-  - '0'
-  - {t: \, h: AGr+ \}
-  - {t: '`', h: Sft+ `}
-  - {t: '8', h: '3'}
-  - {t: '-', h: _}
-  - ''
-  - ''
-  - F1
-  - F2
-  - F4
-  - F5
-  - AGr+ .
-  - AGr+ /
-  - LEFT ALT
-  - LEFT CONTROL
-  - LSHFT
-  - {t: 'Sft+ ]', h: 'Sft+ ['}
-  - ''
-  - PAUSE
-  - {t: ▽, type: trans}
-  - DELETE
-  - DELETE
-  - {t: ▽, type: trans}
   Scrool:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,9 +122,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Symbol:
+  - ''
+  - {t: F8, h: AGr+ `}
+  - ''
+  - F11
+  - DEV TOOLS
+  - AGr+Sft+ .
+  - AGr+Sft+ /
+  - '6'
+  - Sft+ \
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: +, h: '='}
+  - {t: '2', h: '5'}
+  - {t: '7', h: '1'}
+  - {t: '4', h: 'AGr+ ,'}
+  - '9'
+  - '0'
+  - {t: \, h: AGr+ \}
+  - {t: '`', h: Sft+ `}
+  - {t: '8', h: '3'}
+  - {t: '-', h: _}
+  - ''
+  - ''
+  - F1
+  - F2
+  - F4
+  - F5
+  - AGr+ .
+  - AGr+ /
+  - LEFT ALT
+  - LEFT CONTROL
+  - LSHFT
+  - {t: 'Sft+ ]', h: 'Sft+ ['}
+  - ''
+  - PAUSE
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
+  - DELETE
   - {t: ▽, type: trans}
   Moving:
   - ''
@@ -296,9 +296,9 @@ layers:
   - ''
 combos:
 - p: [20, 24]
-  k: {t: Reset, h: toggle}
+  k: {t: Base, h: toggle}
 - p: [25, 29]
-  k: {t: Reset, h: toggle}
+  k: {t: Base, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
