@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - {t: ']', h: '['}
-  - A
+  - {t: LSHIFT, h: sticky, s: CAPS WORD}
   - BACK SPACE
   - {t: SPACE, h: Symbol}
   - L CLK
