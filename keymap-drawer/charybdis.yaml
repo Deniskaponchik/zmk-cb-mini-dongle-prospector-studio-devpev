@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - {t: BT, h: '0'}
+  - A
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - {t: I, h: AGr+ I}
   - O
   - {t: P, h: /}
-  - BOOT LDR
-  - {t: BT, h: '1'}
+  - A
+  - A
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
@@ -24,8 +24,8 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LSHFT}
   - {t: '''', h: LGUI}
-  - ''
-  - {t: BT, h: '2'}
+  - A
+  - A
   - {t: Z, h: Moving}
   - X
   - C
@@ -36,9 +36,9 @@ layers:
   - ','
   - .
   - {t: ']', h: '['}
-  - '&soft_off'
+  - A
   - BACK SPACE
-  - {t: SPACE, h: Scrool}
+  - {t: SPACE, h: Symbol}
   - L CLK
   - TAB
   - {t: ENTER, h: Symbol}
@@ -100,29 +100,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,10 +164,10 @@ layers:
   - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
   - PAUSE
-  - {t: ▽, type: trans}
-  - DELETE
-  - DELETE
   - {type: held}
+  - DELETE
+  - DELETE
+  - {t: ▽, type: trans}
   Moving:
   - ''
   - ''

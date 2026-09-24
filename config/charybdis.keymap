@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -155,10 +154,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&bt BT_SEL 0  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P              &bootloader
-&bt BT_SEL 1  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G     &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &none
-&bt BT_SEL 2  &lt 4 Z  &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT           &soft_off
-                                     &kp BACKSPACE  &lt 2 SPACE      &mkp LCLK      &kp TAB  &lt 3 ENTER
+&kp A  &kp Q    &kp W         &kp E          &kp R            &mt RA(T) T    &kp Y    &kp U            &mt RA(I) I   &kp O         &mt FSLH P              &kp A
+&kp A  &lt 4 A  &hml LSHFT S  &lt 1 D        &hml LEFT_ALT F  &mt CAPS G     &kp H    &hmr LEFT_ALT J  &hmr LCTRL K  &hmr LSHFT L  &hmr LGUI SINGLE_QUOTE  &kp A
+&kp A  &lt 4 Z  &kp X         &kp C          &kp V            &kp B          &kp N    &mt RA(M) M      &kp COMMA     &kp DOT       &mt LBKT RBKT           &kp A
+                              &kp BACKSPACE  &lt 3 SPACE      &mkp LCLK      &kp TAB  &lt 3 ENTER
             >;
         };
 
