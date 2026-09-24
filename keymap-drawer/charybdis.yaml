@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - A
+  - {t: BT, h: '0'}
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - {t: P, h: /}
   - '&soft_off'
-  - A
+  - {t: BT, h: '1'}
   - {t: A, h: Moving}
   - {t: S, h: LSHFT}
   - {t: D, h: Mouse}
@@ -23,9 +23,9 @@ layers:
   - {t: J, h: LEFT ALT}
   - {t: K, h: LCTRL}
   - {t: L, h: LSHFT}
-  - {t: '''', h: LGUI}
-  - A
-  - A
+  - {t: ;, h: LGUI}
+  - BT CLR
+  - {t: BT, h: '2'}
   - {t: Z, h: Moving}
   - X
   - C
@@ -38,10 +38,10 @@ layers:
   - {t: ']', h: '['}
   - A
   - BACK SPACE
-  - {t: SPACE, h: Symbol}
+  - {t: SPACE, h: Scrool}
   - L CLK
   - TAB
-  - {t: ENTER, h: Symbol}
+  - {t: ENTER, h: Scrool}
   Mouse:
   - ''
   - ''
@@ -84,48 +84,6 @@ layers:
   - '&mkp MB1'
   - BACK SPACE
   - DELETE
-  Scrool:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Symbol:
   - ''
   - {t: F8, h: AGr+ `}
@@ -164,9 +122,51 @@ layers:
   - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
   - PAUSE
+  - {t: ▽, type: trans}
+  - DELETE
+  - DELETE
+  - {t: ▽, type: trans}
+  Scrool:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - DELETE
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Moving:
   - ''
