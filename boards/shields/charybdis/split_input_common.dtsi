@@ -40,7 +40,15 @@
     ПРИ ПЕРЕХОДЕ НА СЛОЙ СИМВОЛОВ АВТОМАТИЧЕСКИ ДЛЯ ТРЕКБОЛА БУДЕТ ВКЛЮЧАТЬСЯ РЕЖИМ ПРОКРУТКИ*/
     scroll {
       layers = <SYMB>;
+      /*devpew
       input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 3>, <&zip_xy_to_scroll_mapper>;
+      */
+      /*280Zo*/
+      input-processors = <
+            &zip_xy_scaler 1 15                              // Scales the scroll speed
+            &zip_xy_to_scroll_mapper                         // Converts XY movement to scroll events
+            &zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT) // Inverts the scroll direction
+        >;
     };
 
     /* ОКЛЮЧАЮ ПЕРЕКЛЮЧЕНИЕ НА СЛОЙ МЫШИ ПРИ ДВИЖЕНИИ ТРЕКБОЛОМ
