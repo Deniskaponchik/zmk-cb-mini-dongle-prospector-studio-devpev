@@ -45,8 +45,8 @@
       */
       /*280Zo*/
       input-processors = <
-      //если включен параметр CONFIG_ZMK_POINTING_SMOOTH_SCROLLING, то увеличить эту цифру до 70:
-            &zip_xy_scaler 1 15                   // Scales the scroll speed. одна пятнадцатая от скорости
+      //если вЫключен параметр CONFIG_ZMK_POINTING_SMOOTH_SCROLLING, то увеличить эту цифру до 70:
+            &zip_xy_scaler 1 7                   // Scales the scroll speed. одна пятнадцатая от скорости
             &zip_xy_to_scroll_mapper                         // Converts XY movement to scroll events
             //&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT) // Inverts the scroll direction
         >;
