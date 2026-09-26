@@ -132,8 +132,8 @@ layers:
   - ''
   - F11
   - DEV TOOLS
-  - AGr+Sft+ .
-  - AGr+Sft+ /
+  - {t: AGr+Sft+ ., h: AGr+ L}
+  - {t: AGr+Sft+ /, h: AGr+ ;}
   - '6'
   - Sft+ \
   - ''
@@ -144,8 +144,8 @@ layers:
   - {t: '2', h: '5'}
   - {t: '7', h: '1'}
   - {t: '4', h: 'AGr+ ,'}
-  - '9'
-  - '0'
+  - {t: '9', h: AGr+ O}
+  - {t: '0', h: AGr+ P}
   - {t: \, h: AGr+ \}
   - {t: '`', h: Sft+ `}
   - {t: '8', h: '3'}
