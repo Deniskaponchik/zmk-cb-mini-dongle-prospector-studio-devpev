@@ -61,7 +61,7 @@ layers:
   - {type: held}
   - M CLK
   - ''
-  - ''
+  - KP NUMLOCK
   - {t: KP 4, h: LEFT ALT}
   - {t: KP 5, h: LCTRL}
   - {t: KP 6, h: LSHFT}
