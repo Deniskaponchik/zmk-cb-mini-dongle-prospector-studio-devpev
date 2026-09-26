@@ -45,7 +45,7 @@
       */
       /*280Zo*/
       input-processors = <
-            &zip_xy_scaler 1 50                        // Scales the scroll speed. одна пятидесятая от скорости
+            &zip_xy_scaler 1 30                        // Scales the scroll speed. одна тридцатая от скорости
             &zip_xy_to_scroll_mapper                         // Converts XY movement to scroll events
             //&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT) // Inverts the scroll direction
         >;
