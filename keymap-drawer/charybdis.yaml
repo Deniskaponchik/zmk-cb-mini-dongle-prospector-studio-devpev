@@ -194,7 +194,7 @@ layers:
   - LGUI
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - HOME
   - END
@@ -203,7 +203,7 @@ layers:
   - UP ARROW
   - DOWN
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - BACK SPACE
   - ''
