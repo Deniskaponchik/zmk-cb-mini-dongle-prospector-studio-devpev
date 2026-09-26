@@ -163,7 +163,7 @@ layers:
   - LSHFT
   - {t: 'Sft+ ]', h: 'Sft+ ['}
   - ''
-  - PAUSE
+  - PRINT SCREEN
   - {type: held}
   - DELETE
   - DELETE
@@ -186,7 +186,7 @@ layers:
   - ''
   - LEFT
   - RIGHT
-  - ''
+  - PRINT SCREEN
   - ''
   - LEFT ALT
   - LEFT CONTROL
