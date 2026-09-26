@@ -188,7 +188,7 @@
 &none  &mt RA(GRAVE) F8  &none            &kp F11          &kp F12                 &mt RA(L) RA(RS(DOT))    &mt RA(SEMICOLON) RA(RS(FSLH))  &kp NUMBER_6       &kp LS(BACKSLASH)    &none      &none                  &none
 &none  &mt EQUAL PLUS    &mt N5 NUMBER_2  &mt NUMBER_1 N7  &mt RA(COMMA) NUMBER_4  &mt RA(O) N9             &mt RA(P) N0                    &mt RA(BSLH) BSLH  &mt LS(GRAVE) GRAVE  &mt N3 N8  &mt UNDER MINUS        &none
 &none  &kp F1            &kp F2           &kp F4           &kp F5                  &kp RA(DOT)              &kp RA(FSLH)                    &kp LEFT_ALT       &kp LEFT_CONTROL     &kp LSHFT  &mt LS(LBKT) LS(RBKT)  &none
-                                          &kp C_PAUSE      &trans                  &kp DELETE               &kp DELETE                      &trans
+                                          &kp PRINTSCREEN  &trans                  &kp DELETE               &kp DELETE                      &trans
             >;
         };
 
@@ -196,7 +196,7 @@
             display-name = "Moving";
             bindings = <
 &none  &none   &none  &none          &none      &none              &none       &none         &none             &none           &none     &none
-&none  &trans  &none  &kp LEFT       &kp RIGHT  &none              &none       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LGUI  &none
+&none  &trans  &none  &kp LEFT       &kp RIGHT  &kp PRINTSCREEN    &none       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LGUI  &none
 &none  &trans  &none  &kp HOME       &kp END    &kp PRINTSCREEN    &none       &kp UP_ARROW  &kp DOWN          &none           &trans    &none
                       &kp BACKSPACE  &none      &kp DELETE         &kp DELETE  &none
             >;
