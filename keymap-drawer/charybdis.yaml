@@ -50,10 +50,10 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - ''
   - ''
   - LSHFT
@@ -62,9 +62,9 @@ layers:
   - M CLK
   - ''
   - ''
-  - {t: Sft+ 4, h: LEFT ALT}
-  - {t: Sft+ 5, h: LCTRL}
-  - {t: Sft+ 6, h: LSHFT}
+  - {t: KP 4, h: LEFT ALT}
+  - {t: KP 5, h: LCTRL}
+  - {t: KP 6, h: LSHFT}
   - '-'
   - ''
   - ''
@@ -74,9 +74,9 @@ layers:
   - {t: F24, h: Snipe}
   - ''
   - '8'
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
+  - KP 1
+  - KP 2
+  - KP 3
   - KP PLUS
   - ''
   - BACK SPACE
